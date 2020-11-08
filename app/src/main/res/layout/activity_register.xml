@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#201E1E"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/add123"
+        android:layout_gravity="center_horizontal"/>
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="@font/basic"
+        android:gravity="center_horizontal"
+        android:text="Create Account"
+        android:textAlignment="center"
+        android:textColor="@color/Orange"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/register_email_et"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_margin="10dp"
+        android:paddingStart="10dp"
+        android:inputType="text"
+        android:hint="User Email"
+        android:textColorHint="@color/gray"
+        android:textColor="@android:color/white"
+        android:drawableLeft="@drawable/ic_email"
+        android:drawablePadding="10dp"
+        android:background="@drawable/custom_input"/>
+
+    <EditText
+        android:id="@+id/register_password_et"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:inputType="text"
+        android:layout_margin="10dp"
+        android:paddingStart="10dp"
+        android:hint="User Password"
+        android:textColorHint="@color/gray"
+        android:textColor="@android:color/white"
+        android:drawableStart="@drawable/ic_lock"
+        android:drawableLeft="@drawable/custom_email_input"
+        android:drawablePadding="10dp"
+        android:paddingLeft="10dp"
+        android:background="@drawable/custom_input"/>
+
+    <EditText
+        android:id="@+id/register_confirmpassword_et"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:inputType="text"
+        android:layout_margin="10dp"
+        android:paddingStart="10dp"
+        android:hint="Confirm Password"
+        android:textColorHint="@color/gray"
+        android:textColor="@android:color/white"
+        android:drawableStart="@drawable/ic_lock"
+        android:drawableLeft="@drawable/custom_email_input"
+        android:drawablePadding="10dp"
+        android:paddingLeft="10dp"
+        android:background="@drawable/custom_input"/>
+
+    <CheckBox
+        android:id="@+id/register_checkbox"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Show Password"
+        android:buttonTint="@android:color/white"
+        android:textColor="@android:color/white"
+        android:layout_marginRight="70dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:id="@+id/button_register"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_back"
+        android:text="Sign In"
+        android:layout_marginTop="10dp"
+        android:textColor="@android:color/white"
+        android:layout_margin="10dp"
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/signup_to_login"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_back"
+        android:text="Login"
+        android:textColor="@android:color/white"
+        android:layout_margin="10dp"
+        android:textSize="20sp"/>
+
+    <ProgressBar
+        android:id="@+id/progressbar_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:indeterminate="true"
+        android:indeterminateTint="@android:color/white"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:visibility="invisible"
+        android:layout_marginTop="20dp"/>
+
+
+
+</LinearLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "849095315718",
+    "firebase_url": "https://cookit-userprofile-4fb87.firebaseio.com",
+    "project_id": "cookit-userprofile-4fb87",
+    "storage_bucket": "cookit-userprofile-4fb87.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:849095315718:android:1ed670f5e056a54050ce87",
+        "android_client_info": {
+          "package_name": "com.example.cookit_userprofile"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "849095315718-09a751d4mslpn757cg2pi63sfgfod05p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.cookit_userprofile",
+            "certificate_hash": "4320f5c577291ac7861c0a98115796fc899274e1"
+          }
+        },
+        {
+          "client_id": "849095315718-ljmelgf5p2jsp8la04141kkvp555mp5m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAR1NRcy5rjgfwasOXtkObSEAwbvptSkVQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "849095315718-ljmelgf5p2jsp8la04141kkvp555mp5m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
